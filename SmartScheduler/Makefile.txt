@@ -1,0 +1,16 @@
+CXX = g++
+CXXFLAGS = -std=c++17 -Wall
+
+SRC = src/main.cpp \
+      src/loader.cpp \
+      src/graph_builder.cpp \
+      src/scheduler.cpp \
+      src/exporter.cpp
+
+TARGET = scheduler
+
+all:
+	$(CXX) $(CXXFLAGS) $(SRC) -o $(TARGET)
+
+clean:
+	rm -f $(TARGET)

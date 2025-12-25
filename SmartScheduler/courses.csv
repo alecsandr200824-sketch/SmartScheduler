@@ -1,0 +1,3 @@
+id,name,type,hours_per_week,teacher_id,group_ids,room_type
+1,Базы данных,lecture,2,1,101,lecture_hall
+2,Алгоритмы,practice,2,2,102,computer_class
