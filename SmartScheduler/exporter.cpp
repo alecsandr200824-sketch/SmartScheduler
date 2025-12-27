@@ -1,6 +1,6 @@
 #include "exporter.h"
 #include <iostream>
-
+#include "core.h"
 void printSchedule(const Schedule& s) {
     std::cout << "\n=== ÐÀÑÏÈÑÀÍÈÅ ===\n";
     for (auto& l : s.lessons)
